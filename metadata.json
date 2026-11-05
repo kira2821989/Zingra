@@ -1,0 +1,6 @@
+{
+  "name": "Zingra",
+  "description": "Zingra - Social video feed with likes, comments, creator profiles, video player, and private encrypted chat rooms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Play Button Shape with Rounded Corners -->
+    <path
+        android:pathData="M36,27 C33,25.2 30,26.8 30,30.5 L30,77.5 C30,81.2 33,82.8 36,81 L77,57.5 C80,55.7 80,52.3 77,50.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="78"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#6366F1" android:offset="0.6" />
+                <item android:color="#A855F7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lightning Bolt Icon inside Play symbol -->
+    <path
+        android:pathData="M54,34 L43,53 L51,53 L47,72 L62,51 L53,51 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
